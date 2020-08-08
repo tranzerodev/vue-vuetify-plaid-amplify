@@ -1,0 +1,44 @@
+#calendar
+  .v-sheet .v-toolbar__content .theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) .v-icon
+    color: #fff
+
+.v-calendar .v-event.v-event-end
+  width: 100
+
+.v-event
+  &.primary
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(233,30,99,.4)
+  &.secondary
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(156,39,176,.4)
+  &.info
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,188,212,.4)
+  &.success
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4)
+  &.warning
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(255,152,0,.4)
+  &.error
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(244,67,54,.4)
+
+.v-calendar-weekly__head-weekday
+  font-weight: 700
+
+.theme--light
+  .v-calendar-weekly__head-weekday
+    &.v-present
+      color: #333 !important
+  .v-calendar-weekly__day-label
+    .v-btn.transparent
+      margin-right: 0 !important
+      .v-btn__content
+        color: #333 !important
+    .v-btn--fab
+      margin-right: 0 !important
+      .v-btn__content
+        color: #fff !important
+
+.theme--light.v-calendar-weekly .v-calendar-weekly__head-weekday
+  border-right: none
+  border-bottom: #e0e0e0 1px solid
+
+.theme--light.v-calendar-weekly .v-calendar-weekly__head-weekday.v-outside
+  background: #fff

@@ -1,0 +1,99 @@
+.v-btn.v-size--default
+  font-size: .85rem
+
+.v-icon.v-icon
+  font-size: 20px
+
+.v-btn__content .v-icon--left
+  margin-right: 4px
+
+.v-sheet button.v-btn.v-size--default:not(.v-btn--icon):not(.v-btn--fab)
+  padding: 12px 30px !important
+
+.theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined)
+  background-color: #999
+  color: #fff
+  &:hover
+    background-color: #999
+    color: #fff
+.v-btn--contained.primary
+  box-shadow: 0 2px 2px 0 rgba(233, 30, 98, 0.32), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12)
+
+.v-btn--contained.secondary
+  box-shadow: 0 2px 2px 0 rgba(156,39,176,.14), 0 3px 1px -2px rgba(156,39,176,.2), 0 1px 5px 0 rgba(156,39,176,.12)
+  &:hover
+    box-shadow: 0 14px 26px -12px rgba(156,39,176,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(156,39,176,.2) !important
+
+.v-btn--contained.info
+  box-shadow: 0 2px 2px 0 rgba(0,188,212,.14), 0 3px 1px -2px rgba(0,188,212,.2), 0 1px 5px 0 rgba(0,188,212,.12)
+  &:hover
+    box-shadow: 0 14px 26px -12px rgba(0,188,212,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,188,212,.2) !important
+
+.v-btn--contained.success
+  box-shadow: 0 2px 2px 0 rgba(76,175,80,.14), 0 3px 1px -2px rgba(76,175,80,.2), 0 1px 5px 0 rgba(76,175,80,.12)
+  &:hover
+    box-shadow: 0 14px 26px -12px rgba(76,175,80,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(76,175,80,.2) !important
+
+.v-btn--contained.warning
+  box-shadow: 0 2px 2px 0 rgba(255,152,0,.14), 0 3px 1px -2px rgba(255,152,0,.2), 0 1px 5px 0 rgba(255,152,0,.12)
+  &:hover
+    box-shadow: 0 14px 26px -12px rgba(255,152,0,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(255,152,0,.2) !important
+
+.v-btn--contained.error
+  box-shadow: 0 2px 2px 0 rgba(244,67,54,.14), 0 3px 1px -2px rgba(244,67,54,.2), 0 1px 5px 0 rgba(244,67,54,.12)
+  &:hover
+    box-shadow: 0 14px 26px -12px rgba(244,67,54,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(244,67,54,.2) !important
+
+.v-btn.white
+  .v-btn__content
+    color: #999
+.v-btn--contained
+  box-shadow: 0 2px 2px 0 rgba(244,67,54,.14), 0 3px 1px -2px rgba(244,67,54,.2), 0 1px 5px 0 rgba(244,67,54,.12)
+
+.v-sheet .v-btn.v-size--large:not(.v-btn--icon):not(.v-btn--fab)
+  padding: 18px 36px !important
+
+.v-btn--contained
+  box-shadow: 0 2px 2px 0 hsla(0,0%,60%,.14), 0 3px 1px -2px hsla(0,0%,60%,.2), 0 1px 5px 0 hsla(0,0%,60%,.12)
+
+.v-btn--fab.v-size--small
+  height: 41px
+  width: 41px
+
+.v-btn:not(.v-btn--text):not(.v-btn--outlined):hover:before
+  opacity: 0
+
+.v-btn:not(.v-btn--text):not(.v-btn--outlined):focus:before
+    opacity: 0
+
+.v-btn.v-size--default:not(.v-btn--icon):not(.v-btn--fab),
+.v-btn.v-size--large:not(.v-btn--icon):not(.v-btn--fab)
+  padding: 10px 15px !important
+
+// Button group
+
+.v-item-group
+  .v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined)
+    margin-right: 0
+
+.v-btn-toggle
+  .v-btn
+    opacity: 1
+
+.v-btn-toggle > .v-btn.v-size--default
+   height: inherit
+
+.theme--light.v-btn-toggle .v-btn.v-btn
+  border-color: #999 !important
+  &.primary
+    border-color: #e91e63 !important
+  &.secondary
+    border-color: #9c27b0 !important
+  &.success
+    border-color: #4caf50 !important
+  &.warning
+    border-color: #fb8c00 !important
+  &.error
+    border-color: #ff5252 !important
+  &.info
+    border-color: #00cae3 !important

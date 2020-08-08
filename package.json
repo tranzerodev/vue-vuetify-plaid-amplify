@@ -1,0 +1,52 @@
+{
+  "name": "vuetify-material-dashboard-pro",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --open",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
+    "now-start": "vue-cli-service serve",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "aws-amplify": "^2.2.0",
+    "aws-amplify-vue": "^1.1.1",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-i18n": "^8.14.0",
+    "vue-plaid-link": "^0.4.0",
+    "vue-router": "^3.0.3",
+    "vuetify": "^2.1.5",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-plugin-unit-jest": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.16.0",
+    "eslint-config-vuetify": "*",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.17.4",
+    "sass-loader": "^7.1.0",
+    "vee-validate": "^2.2.15",
+    "vue-chartist": "^2.2.1",
+    "vue-cli-plugin-eslint-config-vuetify": "latest",
+    "vue-cli-plugin-i18n": "^0.6.0",
+    "vue-cli-plugin-vuetify": "^1.1.0",
+    "vue-cli-plugin-vuetify-essentials": "latest",
+    "vue-template-compiler": "^2.6.10",
+    "vue-world-map": "^0.1.1",
+    "vuetify-loader": "^1.2.2"
+  }
+}

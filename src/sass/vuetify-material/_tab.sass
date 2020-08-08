@@ -1,0 +1,60 @@
+.v-tabs
+  .v-tabs-bar
+    padding: 0 15px
+    .v-tab
+      color: #555
+      &.primary
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(156,39,176,.4)
+      &.secondary
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(156,39,176,.4)
+      &.info
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,188,212,.4)
+      &.success
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4)
+      &.warning
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(255,152,0,.4)
+      &.error
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(244,67,54,.4)
+      &.v-tab--active
+        color: #fff
+
+      .v-icon
+        font-size: 24px
+
+  .v-card .v-card__text
+    padding-top: 24px
+    padding-left: 0
+    padding-right: 0
+    font-weight: 300
+    color: #333
+    line-height: 1.75rem
+
+.v-tabs-bar
+  .v-slide-group__wrapper
+    overflow: visible
+    display: -webkit-inline-box
+    contain: inherit
+    .v-slide-group__content
+      z-index: 2
+  .v-tab:not(:first-child)
+      margin-left: 5px
+
+
+// accordion
+
+.v-expansion-panel::before
+  box-shadow: none
+
+.v-expansion-panel  .v-expansion-panel-header
+    padding: 30px 10px 5px 0
+    font-weight: 300
+    font-size: 15px
+    color: #3c4858
+    .v-expansion-panel-header__icon .v-icon
+      font-size: 24px
+      color: #3c4858 !important
+.v-expansion-panel .v-expansion-panel-content__wrap
+    padding: 15px 0 5px
+    color: #333
+    font-weight: 300
+    line-height: 1.75rem
